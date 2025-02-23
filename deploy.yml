@@ -18,9 +18,9 @@ jobs:
       - name: Deploy to InfinityFree FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          ftp-server: ${{ secrets.FTP_SERVER }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          ftp-server: ${{ secrets.FTP_ftpupload.net }}
+          ftp-username: ${{ secrets.FTP_if0_38376826 }}
+          ftp-password: ${{ secrets.FTP_******** }}
           # local-dir: 배포할 로컬 디렉터리 (예: 프로젝트 전체 또는 특정 폴더)
           local-dir: ./  
           # server-dir: 인피니티프리 서버에서 파일이 업로드될 경로 (대부분 htdocs)
